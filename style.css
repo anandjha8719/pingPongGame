@@ -2,13 +2,24 @@
     position: relative;
 }
 
+body{
+    background-color: blueviolet;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
 #ball {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-image: url("ball2.jpg");
+    background-position: center;
     position: fixed;
     top: 20px;
-    left: 52.5%;
+    left: 50%;
+    right: 50%;
     border-radius: 50%;
 }
 
@@ -24,11 +35,12 @@
 }
 
 #rod1 {
-    background-color: blue;
+
+    background-color: Orange;
     top: 0px;    
 }
 
 #rod2 {
-    background-color: blueviolet;
+    background-color: deepskyblue;
     bottom: 0px;
 }
